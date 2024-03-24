@@ -32,7 +32,7 @@ export default async function handler(
     });
 
     const mailOptions = {
-      from: `"Your Company" <${process.env.EMAIL_USERNAME}@zohomail.com>`,
+      from: `"School House" <${process.env.EMAIL_USERNAME}@zohomail.com>`,
       to: `${process.env.EMAIL_USERNAME}@zohomail.com`,
       subject: body.subject,
       text: body.text,
