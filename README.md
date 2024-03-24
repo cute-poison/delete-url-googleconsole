@@ -22,7 +22,7 @@ This repository contains a template for a simple web interface that you can use 
 
 ## Setup
 
-- **Clone this repository**: `git clone https://github.com/DaveAldon/Android-Data-Safety-Template.git`
+- **Clone this repository**: `[git clone https://github.com/cute-poison/delete-url-googleconsole.git
 - **Install NodeJS**: If you don't have NodeJS installed, you can download it [here](https://nodejs.org/en/download/)
 - **Go into the new repo folder and install the dependencies**: `npm i`
 - **Create a Zoho Mail account**: This project uses `NodeMailer` which is easiest to use with an email account that supports basic username/password authentication. Gmail doesn't fit this because it's not designed to be automated. This project uses Zoho for ease of use, something I use as well. You'll need to create a Zoho Mail account in order to send the support emails. It's all free and should only take about 5 minutes. Follow their guide here: [Making a Zoho Email address](https://www.zoho.com/mail/how-to/create-an-email-account.html)
