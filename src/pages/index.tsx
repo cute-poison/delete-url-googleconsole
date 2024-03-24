@@ -7,11 +7,11 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>{'<App Name>'} Account Support</title>
+        <title>{'School House'} Account Support</title>
         <meta
           name='description'
           content={`
-          Account deletion request process for the <App Name> app.`}
+          Account deletion request process for the School House app.`}
         />
         <meta name='viewport' content='width=device-width, initial-scale=1' />
         <link rel='icon' href='/favicon.ico' />
@@ -26,19 +26,7 @@ export default function Home() {
           />
           <AccountDeletionForm />
         </div>
-        <div className='flex flex-col gap-4'>
-          <Image
-            alt='Company logo'
-            height={500}
-            width={256}
-            src='https://placehold.co/256x500.png'
-          />
-          <p className='w-64 text-sm text-gray-500 dark:text-gray-400 text-center'>
-            Alternatively, you can delete your account directly inside the app
-            via Settings {'->'} "Delete My Account"
-          </p>
-        </div>
-      </div>
+              </div>
     </>
   );
 }
